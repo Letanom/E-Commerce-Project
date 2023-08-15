@@ -52,7 +52,7 @@ const Navbar = ({ name }) => {
         <div className="nav-right">
           <ul>
             <li>
-              <span role='button' id='sepet' onClick={handleShow} className='pointer'>Basket</span>
+              <span role='button' id='sepet' onClick={handleShow} className='pointer'>Cart</span>
               <FaCartArrowDown className='m-2' />
             </li>
           </ul>
