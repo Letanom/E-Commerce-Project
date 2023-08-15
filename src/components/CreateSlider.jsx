@@ -41,9 +41,9 @@ export  default ({product}) => {
         </div>
     
     
-      <SwiperSlide><img src='./src/assets/img/slide1.png' style={{paddingTop:"3%"}}/></SwiperSlide>
-      <SwiperSlide><img src='./src/assets/img/slide2.png' style={{width: "25%", paddingTop:"2%"}}/></SwiperSlide>
-      <SwiperSlide><img src='./src/assets/img/slide3.png' style={{paddingTop:"5%",width:"40%"}}/></SwiperSlide>
+      <SwiperSlide><img src='https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP858/mbp16-gray.png' style={{paddingTop:"3%"}}/></SwiperSlide>
+      <SwiperSlide><img src='https://www.gaming.gen.tr/wp-content/uploads/2022/03/167134.png' style={{width: "25%", paddingTop:"2%"}}/></SwiperSlide>
+      <SwiperSlide><img src='https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g432/g432-gallery-3.png?v=1' style={{paddingTop:"5%",width:"40%"}}/></SwiperSlide>
       <SwiperSlide><img src='https://www.pngplay.com/wp-content/uploads/2/Gaming-Pc-Mouse-PNG-HD-Quality.png' style={{paddingTop:"5%",width:"20%"}}/></SwiperSlide>
          
   
