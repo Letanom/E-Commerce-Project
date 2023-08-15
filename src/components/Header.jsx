@@ -36,7 +36,7 @@ const Header = () => {
               <FaEnvelope className="topbar-item1 m-2" /> kevinozsimsek@gmail.com
             </li>
             <li>
-              <span className="kampanya ms-2">200₺ üzeri alışverişte ücretsiz kargo</span>
+              <span className="kampanya ms-2">Free shipping on orders over $200</span>
             </li>
           </ul>
         </div>
@@ -67,7 +67,7 @@ const Header = () => {
               <Link to="/language">
                 <button className="btn btn-primary">
                   <FaFlag className="m-1 " />
-                  Dil Değiştir
+                Change Language
                 </button>
               </Link>
             </li>
@@ -76,12 +76,12 @@ const Header = () => {
               {loginUser ? (
                 <Dropdown>
                   <Dropdown.Toggle variant="dark" id="dropdown-basic">
-                  <FaUser className="m-1 mb-1" /> Merhaba {loginUser.username}
+                  <FaUser className="m-1 mb-1" /> Hello {loginUser.username}
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu>
                     <Dropdown.Item href="/" onClick={handleLogout}>
-                      Çıkış Yap
+                      Exit
                     </Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
@@ -89,7 +89,7 @@ const Header = () => {
                 <Link to="Login">
                   <button className="btn btn-dark">
                     <FaUser className='m-1' />
-                    Giriş Yap
+                    Login
                   </button>
                 </Link>
               )}

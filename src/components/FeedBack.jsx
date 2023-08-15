@@ -52,10 +52,10 @@ const FeedBack = () => {
         {profileData.map((profile) => (
 
           <SwiperSlide key={profile.id}>
-            <h1><FaComments style={{ marginBottom: "1.5%" }} />Geri Dönüşleriniz</h1>
-            <p> Ad: {profile.name}</p>
+            <h1><FaComments style={{ marginBottom: "1.5%" }} />Feedbacks</h1>
+            <p>Name: {profile.name}</p>
             <p>Email: {profile.email}</p>
-            <p>Yorum: {profile.body}</p>
+            <p>Comments: {profile.body}</p>
 
           </SwiperSlide>
         ))}

@@ -45,7 +45,7 @@ const SearchBar = () => {
     <div className='search-bar'>
       <InputGroup>
         <InputGroup.Text><FaSearch/></InputGroup.Text>
-        <Form.Control placeholder='Ürünün adını giriniz' aria-label="product name" onChange={handleChange} />
+        <Form.Control placeholder='Search product' aria-label="product name" onChange={handleChange} />
        
       </InputGroup>
       <div className='item-search'>

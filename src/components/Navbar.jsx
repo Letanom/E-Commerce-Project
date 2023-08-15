@@ -30,7 +30,7 @@ const Navbar = ({ name }) => {
   return (
     <>
       <nav className="navbar navbar-expand-lg">
-        <Link className="navbar-brand ms-5" to="/">ALIŞVERİŞ DÜNYASI</Link>
+        <Link className="navbar-brand ms-5" to="/">SHOPPING WORLD</Link>
 
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -38,13 +38,13 @@ const Navbar = ({ name }) => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">Ana Sayfa</Link>
+              <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="Products">Ürünler</Link>
+              <Link className="nav-link" to="Products">Products</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="About">Hakkımızda</Link>
+              <Link className="nav-link" to="About">About Us</Link>
             </li>
 
           </ul>
@@ -52,7 +52,7 @@ const Navbar = ({ name }) => {
         <div className="nav-right">
           <ul>
             <li>
-              <span role='button' id='sepet' onClick={handleShow} className='pointer'>Sepet</span>
+              <span role='button' id='sepet' onClick={handleShow} className='pointer'>Basket</span>
               <FaCartArrowDown className='m-2' />
             </li>
           </ul>
@@ -61,7 +61,7 @@ const Navbar = ({ name }) => {
         <div className="nav-right-mobile">
           <ul>
             <li>
-              <span role='button' id='sepet' onClick={handleShow} className='pointer'>Sepet
+              <span role='button' id='sepet' onClick={handleShow} className='pointer'>Basket
                 <FaCartArrowDown className='m-2' />
               </span>
             </li>
@@ -70,17 +70,17 @@ const Navbar = ({ name }) => {
       </nav>
       <Offcanvas show={show} onHide={handleClose} placement="end">
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Sepet</Offcanvas.Title>
+          <Offcanvas.Title>Basket</Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Title style={{ marginLeft: "4%" }}>Toplam Ürün Sayısı: {totalPiece}</Offcanvas.Title>
+        <Offcanvas.Title style={{ marginLeft: "4%" }}>Total Product Amount: {totalPiece}</Offcanvas.Title>
         <Offcanvas.Body>
           <ul>
             {cartItems.map(item => (
               <ul className='ul-cart' key={item.id}>
                 <img src={item.image} alt={item.title} style={{ width: "70px", height: "50px", objectFit: "contain" }} />
-                <li>Ürün Adı: {item.title}</li>
-                <li>Fiyat: {item.price * item.quantity}₺</li>
-                <li>Adet Sayısı: {item.quantity}</li>
+                <li>Product Name: {item.title}</li>
+                <li>Price: {item.price * item.quantity}₺</li>
+                <li>Amount: {item.quantity}</li>
                 <button style={{ backgroundColor: "transparent", border: "none" }} onClick={() => dispatch(removeItem(item))}>
                   <FaTrashAlt className='icon-thr' />
                 </button>
@@ -88,9 +88,9 @@ const Navbar = ({ name }) => {
             ))}
           </ul>
         </Offcanvas.Body>
-        <h5 style={{ margin: "2%" }}>Toplam Tutar: {totalAmount} ₺</h5>
+        <h5 style={{ margin: "2%" }}>Total Price: {totalAmount} ₺</h5>
         <div className='payment'>
-          <button style={{ padding: "4%", margin: "2%" }} className='btn btn-success'>Ödeme Yap</button>
+          <button style={{ padding: "4%", margin: "2%" }} className='btn btn-success'>Pay</button>
         </div>
       </Offcanvas>
     </>

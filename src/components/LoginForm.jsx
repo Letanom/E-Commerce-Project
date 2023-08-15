@@ -30,10 +30,10 @@ const LoginForm = () => {
         localStorage.setItem('user', JSON.stringify(formData))
         window.location.href = "/"
       } else {
-        alert('Email veya şifre yanlış')
+        alert('Email or Password wrong')
       }
     } else {
-      alert('Gerekli alanları doldurun')
+      alert('Fill the required areas')
     }
   }
 

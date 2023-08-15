@@ -80,8 +80,8 @@ const Cards = ({  }) => {
           <Card.Img variant='top' src={phone.image} alt={phone.title} style={{ width: "100%", height: "90px", objectFit: "contain" }} />
           <Card.Body>
           <Link to={'/products/'+phone.id}>   <Card.Title>{phone?.title?.length > 34 ? phone?.title.substring(0,34) + ' ...' : phone?.title}</Card.Title></Link>
-            <Card.Text className='phone-category'>Kategori: {phone.category}</Card.Text>
-            <Card.Text className='phone-price'>Fiyat: {phone.price}₺</Card.Text>
+            <Card.Text className='phone-category'>Category: {phone.category}</Card.Text>
+            <Card.Text className='phone-price'>Price: {phone.price}₺</Card.Text>
             <div className='button-container' style={{ paddingTop: "4%" }}>
               <Button variant="primary" ><FaShareSquare style={{ paddingBottom: "1.5%", marginRight: "4%" }} /></Button>
  

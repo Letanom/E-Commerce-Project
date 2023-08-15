@@ -33,11 +33,11 @@ export  default ({product}) => {
      
     >   <div className='btn-container'>
 
-        <Link to={"/Products"}> <button className='btn btn-dark'>Görüntüle</button>
+        <Link to={"/Products"}> <button className='btn btn-dark'>Show</button>
         </Link>
 
         {/* <Link to={"/"} */}
-        <Link to ={"/About"}>  <button  className='btn btn-light '>Hakkımızda</button></Link>
+        <Link to ={"/About"}>  <button  className='btn btn-light '>About Us</button></Link>
         </div>
     
     

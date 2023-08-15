@@ -25,15 +25,15 @@ const PhoneList = () => {
     dispatch(addToCart(phone))
     Swal.fire({
       icon: 'success',
-      title: 'Başarılı!',
-      text: 'Ürün sepete eklendi!',
+      title: 'Success!',
+      text: 'Product added to cart!',
       showConfirmButton: true,
       confirmButtonText:
-    'Tamamdır!',
+    'Ok!',
     confirmButtonColor: '#16A20B',
 
      
-      timer: 1500, // Bildirimin kaç milisaniye sonra otomatik kapanacağı
+      timer: 1500, 
     });
 
 
@@ -75,14 +75,14 @@ const PhoneList = () => {
           <Card.Img variant='top' src={phone.image} alt={phone.title} style={{ width: "100%", height: "90px", objectFit: "contain" }} />
           <Card.Body>
             <Link to={'/products/'+phone.id}><Card.Title>{phone?.title?.length > 38 ? phone?.title.substring(0,38) + ' ...' : phone?.title}</Card.Title></Link>
-            <Card.Text className='phone-category'>Kategori: {phone.category}</Card.Text>
-            <Card.Text className='phone-price'>Fiyat: {phone.price}₺  </Card.Text>
+            <Card.Text className='phone-category'>Category: {phone.category}</Card.Text>
+            <Card.Text className='phone-price'>Price: {phone.price}₺  </Card.Text>
             <Card.Text>
               Açıklama:
               {phone.description.length > 20 ? (
                 <div className='read-more'>
                   {phone.description.substring(0, 90)}
-                  <ReadMoreButton initialText="Daha Fazlasını oku" expandedText={phone.description} />
+                  <ReadMoreButton initialText="Read More " expandedText={phone.description} />
                 </div>
               ) : (
                 phone.description

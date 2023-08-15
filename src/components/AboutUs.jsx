@@ -4,19 +4,19 @@ const AboutUs = () => {
     console.log("TEST");
     return (
         <div className='about-us'>
-        <h1>Teknoloji Dünyası</h1>
+        <h1>Shopping World</h1>
         <h5> 
-            Teknoloji Dünyası, meraklılarına teknoloji alanında en son gelişmeleri sunan dinamik bir platformdur. Misyonumuz, teknolojiyi anlaşılır ve erişilebilir bir şekilde sunarak insanların dijital dünyayı keşfetmelerine ve teknolojiyi hayatlarında etkili bir şekilde kullanmalarına yardımcı olmaktır.
+        The Technology World is a dynamic platform that offers technology enthusiasts the latest developments in the field of technology. Our mission is to help people explore the digital world and effectively use technology in their lives by presenting it in an understandable and accessible manner.
 
-            Kuruluşumuzdan bu yana, teknolojik gelişmeleri adım adım takip ederek sektörde güvenilir bir kaynak olma vizyonumuzu sürdürüyoruz. Deneyimli yazarlarımız ve uzman editör ekibimizle birlikte, akıllı telefonlardan bilgisayar donanımına, yapay zekadan dijital güvenliğe kadar geniş bir yelpazede içerikler üretiyoruz.
+Since our inception, we have been steadfast in our vision to become a reliable source in the industry by meticulously tracking technological advancements step by step. Together with our experienced writers and expert editorial team, we produce content across a wide range of topics, from smartphones to computer hardware, artificial intelligence to digital security.
 
-            Amacımız, okuyucularımıza teknoloji hakkında güvenilir ve tarafsız bilgi sağlamaktır. Teknoloji Dünyası olarak, kullanıcılarımızın dijital dönüşüm süreçlerinde kendilerini daha güvende ve bilinçli hissetmelerini hedefliyoruz.
+Our goal is to provide our readers with trustworthy and unbiased information about technology. At Technology World, we aim to make our users feel safer and more knowledgeable in their digital transformation journeys.
 
-            Bizimle kalın, teknolojiye dair son haberler, incelemeler, ipuçları ve rehberlerle dolu bu heyecanlı yolculuğa siz de katılın!
+Stay with us and join this exciting journey filled with the latest news, reviews, tips, and guides about technology!
 
-            Eğer herhangi bir sorunuz, öneriniz veya işbirliği teklifiniz varsa, lütfen bize ulaşmaktan çekinmeyin. Sizlerle iletişim halinde olmak, bize değerli okuyucularımıza daha iyi hizmet sunma konusunda ilham veriyor.
+If you have any questions, suggestions, or collaboration offers, please don't hesitate to reach out to us. Staying in touch with you inspires us to provide better service to our valued readers.
 
-            Teşekkür ederiz,
+Thank you.
 </h5>
         </div>
 
