@@ -14,9 +14,10 @@ export  default ({product}) => {
     
     <div className='swipe-wrapper' >
     <div className='swipe-container' >
-  <h1 className='swipe-title'>Karne Fırsatları</h1>
+  <h1 className='swipe-title'>Summer Discount</h1>
     
-    <h3 className='swipe-info'>%35'e varan indirimlerle</h3>
+    <h3 className='swipe-info'>
+With discounts up to 35%</h3>
     <div className='container'>
     <Swiper className='swipe-test'
       spaceBetween={10}
