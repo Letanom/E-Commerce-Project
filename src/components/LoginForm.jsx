@@ -48,20 +48,20 @@ const LoginForm = () => {
         <Col md={6} >
           <Form>
             <Form.Group onChange={(e) => setFormData({ ...formData, username: e.target.value })} className="mb-3" controlId="username" value={formData.username} >
-              <Form.Label>Kullanıcı Adı</Form.Label>
-              <Form.Control type="text" placeholder="Kullanıcı Adınızı Girin" />
+              <Form.Label>Username</Form.Label>
+              <Form.Control type="text" placeholder="Username" />
             </Form.Group>
             <Form.Group onChange={(e) => setFormData({ ...formData, mail: e.target.value })} className="mb-3" controlId="username" value={formData.mail} >
-              <Form.Label>Mail Adresiniz</Form.Label>
-              <Form.Control type="text" placeholder="Kullanıcı Adınızı Girin" />
+              <Form.Label>Email Adress</Form.Label>
+              <Form.Control type="text" placeholder="Email Adress" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="password">
-              <Form.Label>Şifre</Form.Label>
-              <Form.Control onChange={(e) => setFormData({ ...formData, pass: e.target.value })} type="password" placeholder="Şifrenizi Girin" value={formData.pass} />
+              <Form.Label>Password</Form.Label>
+              <Form.Control onChange={(e) => setFormData({ ...formData, pass: e.target.value })} type="password" placeholder="Password" value={formData.pass} />
             </Form.Group>
 
             <Button className='pt-1' variant="primary" type="submit" onClick={handleSubmit}>
-              Giriş Yap
+             Login
             </Button>
 
           </Form>

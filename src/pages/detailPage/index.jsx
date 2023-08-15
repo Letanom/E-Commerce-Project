@@ -28,16 +28,17 @@ const ProductDetail = () => {
         dispatch(addToCart(product))
         Swal.fire({
           icon: 'success',
-          title: 'Başarılı!',
-          text: 'Ürün sepete eklendi!',
+          title: 'Success!',
+          text: 'Product added to cart!',
           showConfirmButton: true,
           confirmButtonText:
-        'Tamamdır!',
+        'Ok!',
         confirmButtonColor: '#16A20B',
     
          
-          timer: 1500, // Bildirimin kaç milisaniye sonra otomatik kapanacağı
+          timer: 1500, 
         });
+    
       
       }
 
@@ -49,7 +50,7 @@ const ProductDetail = () => {
     <Col md={4} className='mb-3'>
         <h4>{product.title}</h4>
         <img src= {product.image}/>
-        <p style={{fontWeight:"bold"}}>{product.price} ₺</p>
+        <p style={{fontWeight:"bold"}}>{product.price} $</p>
         <p>{product.description}</p>
         <Button className='custom-but' onClick={() => addBasket(product)}  variant="success"><FaCartPlus   /></Button>
         

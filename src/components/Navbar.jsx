@@ -61,7 +61,7 @@ const Navbar = ({ name }) => {
         <div className="nav-right-mobile">
           <ul>
             <li>
-              <span role='button' id='sepet' onClick={handleShow} className='pointer'>Basket
+              <span role='button' id='sepet' onClick={handleShow} className='pointer'>Cart
                 <FaCartArrowDown className='m-2' />
               </span>
             </li>
@@ -70,7 +70,7 @@ const Navbar = ({ name }) => {
       </nav>
       <Offcanvas show={show} onHide={handleClose} placement="end">
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Basket</Offcanvas.Title>
+          <Offcanvas.Title>Cart</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Title style={{ marginLeft: "4%" }}>Total Product Amount: {totalPiece}</Offcanvas.Title>
         <Offcanvas.Body>

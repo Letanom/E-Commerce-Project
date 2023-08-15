@@ -71,7 +71,7 @@ const Cards = ({  }) => {
 
   return (
     <Container>
-  <h1 className="best-title">En Çok Satanlar</h1>
+  <h1 className="best-title">Best Sellers</h1>
     
     <Row>
 {phoneData.map((phone) => (
