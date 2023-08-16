@@ -79,7 +79,7 @@ const Navbar = ({ name }) => {
               <ul className='ul-cart' key={item.id}>
                 <img src={item.image} alt={item.title} style={{ width: "70px", height: "50px", objectFit: "contain" }} />
                 <li>Product Name: {item.title}</li>
-                <li>Price: {item.price * item.quantity}₺</li>
+                <li>Price: {item.price * item.quantity}$</li>
                 <li>Amount: {item.quantity}</li>
                 <button style={{ backgroundColor: "transparent", border: "none" }} onClick={() => dispatch(removeItem(item))}>
                   <FaTrashAlt className='icon-thr' />
@@ -88,7 +88,7 @@ const Navbar = ({ name }) => {
             ))}
           </ul>
         </Offcanvas.Body>
-        <h5 style={{ margin: "2%" }}>Total Price: {totalAmount} ₺</h5>
+        <h5 style={{ margin: "2%" }}>Total Price: {totalAmount} $</h5>
         <div className='payment'>
           <button style={{ padding: "4%", margin: "2%" }} className='btn btn-success'>Pay</button>
         </div>

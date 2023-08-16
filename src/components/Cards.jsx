@@ -81,7 +81,7 @@ const Cards = ({  }) => {
           <Card.Body>
           <Link to={'/products/'+phone.id}>   <Card.Title>{phone?.title?.length > 34 ? phone?.title.substring(0,34) + ' ...' : phone?.title}</Card.Title></Link>
             <Card.Text className='phone-category'>Category: {phone.category}</Card.Text>
-            <Card.Text className='phone-price'>Price: {phone.price}₺</Card.Text>
+            <Card.Text className='phone-price'>Price: {phone.price}$</Card.Text>
             <div className='button-container' style={{ paddingTop: "4%" }}>
               <Button variant="primary" ><FaShareSquare style={{ paddingBottom: "1.5%", marginRight: "4%" }} /></Button>
  

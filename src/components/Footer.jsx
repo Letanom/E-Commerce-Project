@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="d-flex flex-column flex-sm-row w-100 gap-3">
                 <label htmlFor="newsletter1" className="visually-hidden">Email Adres</label>
                 <input id="newsletter1" type="text" className="form-control" placeholder="Your Mail" />
-                <button className="btn btn-danger" type="button">Abonelik</button>
+                <button className="btn btn-danger" type="button">Subscribe</button>
               </div>
           </div>
    

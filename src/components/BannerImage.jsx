@@ -23,11 +23,11 @@ const BannerImage = () => {
    
   >  
   
-    <SwiperSlide><img src='http://www.endeksbilisim.com.tr/images/content/kurumsal_banner_AMDRX7000.jpg'/></SwiperSlide>
-    <SwiperSlide><img src='http://www.endeksbilisim.com.tr/images/content/kurumsal_banner_aorus_17_10_2019_TR.JPG'/></SwiperSlide>
-    <SwiperSlide><img src='http://www.endeksbilisim.com.tr/images/content/kurumsal_banner_xpg_17_10_2019_TR.JPG' /></SwiperSlide>
-    <SwiperSlide><img src='http://www.endeksbilisim.com.tr/images/content/endeks_kurumsal_banner_13_11_2020.jpg'/></SwiperSlide>
-    <SwiperSlide><img src='http://www.endeksbilisim.com.tr/images/content/kurumsal_banner_Tenda_A33.jpg'/></SwiperSlide>
+  <img src='../src/assets/bucketImages/kurumsal_banner_1.jpg' alt='Slide 1' />
+    <SwiperSlide><img src='../src/assets/bucketImages/kurumsal_banner_2.jpeg' alt='Slide 1' /></SwiperSlide>
+    <SwiperSlide><img src='../src/assets/bucketImages/kurumsal_banner_3.jpeg' /></SwiperSlide>
+    <SwiperSlide><img src='../src/assets/bucketImages/kurumsal_banner_4.jpeg'/></SwiperSlide>
+    <SwiperSlide><img src='../src/assets/bucketImages/kurumsal_banner_5.jpg'/></SwiperSlide>
        
 
   </Swiper>

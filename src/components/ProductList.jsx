@@ -76,9 +76,9 @@ const PhoneList = () => {
           <Card.Body>
             <Link to={'/products/'+phone.id}><Card.Title>{phone?.title?.length > 38 ? phone?.title.substring(0,38) + ' ...' : phone?.title}</Card.Title></Link>
             <Card.Text className='phone-category'>Category: {phone.category}</Card.Text>
-            <Card.Text className='phone-price'>Price: {phone.price}₺  </Card.Text>
+            <Card.Text className='phone-price'>Price: {phone.price}$  </Card.Text>
             <Card.Text>
-              Açıklama:
+              Description:
               {phone.description.length > 20 ? (
                 <div className='read-more'>
                   {phone.description.substring(0, 90)}
