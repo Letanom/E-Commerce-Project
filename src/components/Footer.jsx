@@ -17,7 +17,7 @@ const Footer = () => {
               </div>
           </div>
    
-        <img style={{margin:"15px"}} src='./src/assets/img/payment.png'></img>
+        <img style={{margin:"15px"}} src='/src/assets/img/payment.png'></img>
        
           <p>© 2023 Shopping World , All Rights Reserved.</p>
 

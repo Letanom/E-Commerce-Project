@@ -23,12 +23,11 @@ const BannerImage = () => {
    
   >  
   
-  <img src='../src/assets/bucketImages/kurumsal_banner_1.jpg' alt='Slide 1' />
-    <SwiperSlide><img src='../src/assets/bucketImages/kurumsal_banner_2.jpeg' alt='Slide 1' /></SwiperSlide>
-    <SwiperSlide><img src='../src/assets/bucketImages/kurumsal_banner_3.jpeg' /></SwiperSlide>
-    <SwiperSlide><img src='../src/assets/bucketImages/kurumsal_banner_4.jpeg'/></SwiperSlide>
-    <SwiperSlide><img src='../src/assets/bucketImages/kurumsal_banner_5.jpg'/></SwiperSlide>
-       
+  <SwiperSlide><img src='/src/assets/bucketImages/kurumsal_banner_1.jpg' alt='Slide 1' /></SwiperSlide>
+    <SwiperSlide><img src='/src/assets/bucketImages/kurumsal_banner_2.jpeg' alt='Slide 2' /></SwiperSlide>
+    <SwiperSlide><img src='/src/assets/bucketImages/kurumsal_banner_3.jpeg' alt='Slide 3' /></SwiperSlide>
+    <SwiperSlide><img src='/src/assets/bucketImages/kurumsal_banner_4.jpeg' alt='Slide 4'/></SwiperSlide>
+    <SwiperSlide><img src='/src/assets/bucketImages/kurumsal_banner_5.jpg' alt='Slide 5'/></SwiperSlide>
 
   </Swiper>
   </div>
