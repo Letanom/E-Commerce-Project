@@ -1,7 +1,11 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay }  from 'swiper/modules';
-
+import kurumsal_banner_1 from "../assets/bucketImages/kurumsal_banner_1.jpg";
+import kurumsal_banner_2 from "../assets/bucketImages/kurumsal_banner_2.jpeg";
+import kurumsal_banner_3 from "../assets/bucketImages/kurumsal_banner_3.jpeg";
+import kurumsal_banner_4 from "../assets/bucketImages/kurumsal_banner_4.jpeg";
+import kurumsal_banner_5 from "../assets/bucketImages/kurumsal_banner_5.jpg";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -23,11 +27,11 @@ const BannerImage = () => {
    
   >  
   
-  <SwiperSlide><img src='/src/assets/bucketImages/kurumsal_banner_1.jpg' alt='Slide 1' /></SwiperSlide>
-    <SwiperSlide><img src='/src/assets/bucketImages/kurumsal_banner_2.jpeg' alt='Slide 2' /></SwiperSlide>
-    <SwiperSlide><img src='/src/assets/bucketImages/kurumsal_banner_3.jpeg' alt='Slide 3' /></SwiperSlide>
-    <SwiperSlide><img src='/src/assets/bucketImages/kurumsal_banner_4.jpeg' alt='Slide 4'/></SwiperSlide>
-    <SwiperSlide><img src='/src/assets/bucketImages/kurumsal_banner_5.jpg' alt='Slide 5'/></SwiperSlide>
+  <SwiperSlide><img src={kurumsal_banner_1} alt='Slide 1' /></SwiperSlide>
+    <SwiperSlide><img  src={kurumsal_banner_2} alt='Slide 2' /></SwiperSlide>
+    <SwiperSlide><img  src={kurumsal_banner_3} alt='Slide 3' /></SwiperSlide>
+    <SwiperSlide><img  src={kurumsal_banner_4} alt='Slide 4' /></SwiperSlide>
+    <SwiperSlide><img  src={kurumsal_banner_5} alt='Slide 5' /></SwiperSlide>
 
   </Swiper>
   </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook,FaInstagram,FaLinkedin } from 'react-icons/fa';
+import footerpic from "../assets/img/payment.png"
 const Footer = () => {
   return (
    
@@ -17,7 +18,7 @@ const Footer = () => {
               </div>
           </div>
    
-        <img style={{margin:"15px"}} src='/src/assets/img/payment.png'></img>
+        <img style={{margin:"15px"}} src={footerpic}></img>
        
           <p>© 2023 Shopping World , All Rights Reserved.</p>
 
